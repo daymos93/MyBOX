@@ -4549,8 +4549,8 @@ G4PhysicalConstants.hh
 /home/dayron/Geant4/MyBOX/src/G4PhysicalConstants.hh
 G4SystemOfUnits.hh
 /home/dayron/Geant4/MyBOX/src/G4SystemOfUnits.hh
-../inc/MyBOXDetectorConstruction.hh
-/home/dayron/Geant4/MyBOX/inc/MyBOXDetectorConstruction.hh
+MyBOXDetectorConstruction.hh
+/home/dayron/Geant4/MyBOX/src/MyBOXDetectorConstruction.hh
 
 /home/dayron/Geant4/MyBOX/src/MyBOXDetectorMessenger.cc
 MyBOXDetectorMessenger.hh
@@ -4563,8 +4563,8 @@ G4UIcmdWithAString.hh
 /home/dayron/Geant4/MyBOX/src/G4UIcmdWithAString.hh
 G4String.hh
 /home/dayron/Geant4/MyBOX/src/G4String.hh
-../inc/MyBOXDetectorConstruction.hh
-/home/dayron/Geant4/MyBOX/inc/MyBOXDetectorConstruction.hh
+MyBOXDetectorConstruction.hh
+/home/dayron/Geant4/MyBOX/src/MyBOXDetectorConstruction.hh
 
 /home/dayron/Geant4/MyBOX/src/MyBOXEventAction.cc
 G4RunManager.hh
@@ -4609,8 +4609,8 @@ MyBOXRunActionMessenger.hh
 /home/dayron/Geant4/MyBOX/src/MyBOXRunActionMessenger.hh
 Randomize.hh
 /home/dayron/Geant4/MyBOX/src/Randomize.hh
-../inc/MyBOXDetectorConstruction.hh
-/home/dayron/Geant4/MyBOX/inc/MyBOXDetectorConstruction.hh
+MyBOXDetectorConstruction.hh
+/home/dayron/Geant4/MyBOX/src/MyBOXDetectorConstruction.hh
 
 /home/dayron/Geant4/MyBOX/src/MyBOXRunActionMessenger.cc
 MyBOXRunActionMessenger.hh

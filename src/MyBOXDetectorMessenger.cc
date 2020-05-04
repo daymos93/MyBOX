@@ -5,7 +5,7 @@
 #include "G4UIcmdWithADoubleAndUnit.hh"
 #include "G4UIcmdWithAString.hh"
 #include "G4String.hh"
-#include "../inc/MyBOXDetectorConstruction.hh"
+#include "MyBOXDetectorConstruction.hh"
 
 
 MyBOXDetectorMessenger::MyBOXDetectorMessenger(MyBOXDetectorConstruction* det)

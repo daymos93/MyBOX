@@ -11,7 +11,7 @@ class MyBOXDetectorConstruction;
 class MyBOXPrimaryGeneratorAction;
 class MyBOXRun;
 class G4Run;
-//class YourRunActionMessenger;
+class MyBOXRunActionMessenger;
 
 
 class MyBOXRunAction : public G4UserRunAction {
@@ -79,7 +79,7 @@ class MyBOXRunAction : public G4UserRunAction {
     // to update the corresponding histogram in the BeginOfRunAction method when 
     // YourRun object(s) is(are) already available(created) together with their 
     // histogram objects.
-//    YourRunActionMessenger*     fMessenger;
+    MyBOXRunActionMessenger*     fMessenger;
     
     // See the description at the SetEdepHistogram method above.
     G4bool      fIsEdepHistogramUICmdInvoked;

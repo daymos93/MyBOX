@@ -5,7 +5,7 @@
 #include "G4VUserDetectorConstruction.hh"
 
 // forward declaration
-class YourDetectorMessenger;
+class MyBOXDetectorMessenger;
 class G4Material;
 class G4String;
 class G4LogicalVolume;
@@ -60,7 +60,7 @@ class MyBOXDetectorConstruction : public G4VUserDetectorConstruction {
   private:
 
     // The detector messenger pointer: to set the target thickness
-//    YourDetectorMessenger* fDetMessenger;
+    MyBOXDetectorMessenger* fDetMessenger;
 
     // Target material 
     G4Material*            fTargetMaterial;

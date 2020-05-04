@@ -17,7 +17,7 @@ MyBOXRunActionMessenger::MyBOXRunActionMessenger(MyBOXRunAction* runAction)
     //
     // create the "yourRun" command directory first then add commands
     fDirCMD = new G4UIdirectory("/yourApp/runAction/");
-    fDirCMD->SetGuidance("UI commands specific to MyBOXRun object of this application that will act through YourRunAction");
+    fDirCMD->SetGuidance("UI commands specific to YourRun object of this application that will act through YourRunAction");
     //
     // UI command to set the ...
     fEdepHistogramCMD = new G4UIcmdWithAString("/yourApp/runAction/edepHisto",this);

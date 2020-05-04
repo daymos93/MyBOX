@@ -527,6 +527,7 @@ CMakeFiles/MyBOX.dir/src/MyBOXActionInitialization.cc.o: ../inc/MyBOXDetectorCon
 CMakeFiles/MyBOX.dir/src/MyBOXActionInitialization.cc.o: ../inc/MyBOXPrimaryGeneratorAction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXActionInitialization.cc.o: ../src/MyBOXActionInitialization.cc
 
+CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: ../inc/MyBOXDetectorConstruction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: ../inc/MyBOXDetectorMessenger.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: /home/dayron/Applications/CLHEP/CLHEP-install/lib/CLHEP-2.4.1.3/../../include/CLHEP/Geometry/BasicVector3D.h
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: /home/dayron/Applications/CLHEP/CLHEP-install/lib/CLHEP-2.4.1.3/../../include/CLHEP/Geometry/Normal3D.h
@@ -646,9 +647,9 @@ CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: /home/dayron/Applicatio
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/globals.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/templates.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/tls.hh
-CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: ../inc/MyBOXDetectorConstruction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorConstruction.cc.o: ../src/MyBOXDetectorConstruction.cc
 
+CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: ../inc/MyBOXDetectorConstruction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: ../inc/MyBOXDetectorMessenger.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: /home/dayron/Applications/CLHEP/CLHEP-install/lib/CLHEP-2.4.1.3/../../include/CLHEP/Vector/ThreeVector.h
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: /home/dayron/Applications/CLHEP/CLHEP-install/lib/CLHEP-2.4.1.3/../../include/CLHEP/Vector/ThreeVector.icc
@@ -675,7 +676,6 @@ CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: /home/dayron/Applications/
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/globals.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/templates.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/tls.hh
-CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: ../inc/MyBOXDetectorConstruction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXDetectorMessenger.cc.o: ../src/MyBOXDetectorMessenger.cc
 
 CMakeFiles/MyBOX.dir/src/MyBOXEventAction.cc.o: ../inc/Hist.hh
@@ -1047,6 +1047,7 @@ CMakeFiles/MyBOX.dir/src/MyBOXRun.cc.o: ../inc/MyBOXRun.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRun.cc.o: ../src/MyBOXRun.cc
 
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../inc/Hist.hh
+CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../inc/MyBOXDetectorConstruction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../inc/MyBOXPrimaryGeneratorAction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../inc/MyBOXRun.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../inc/MyBOXRunAction.hh
@@ -1138,7 +1139,6 @@ CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: /home/dayron/Applications/Geant4/g
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/globals.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/templates.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: /home/dayron/Applications/Geant4/geant4-install/include/Geant4/tls.hh
-CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../inc/MyBOXDetectorConstruction.hh
 CMakeFiles/MyBOX.dir/src/MyBOXRunAction.cc.o: ../src/MyBOXRunAction.cc
 
 CMakeFiles/MyBOX.dir/src/MyBOXRunActionMessenger.cc.o: ../inc/MyBOXRunAction.hh

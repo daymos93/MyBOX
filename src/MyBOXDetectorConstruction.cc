@@ -13,7 +13,7 @@
 // for having units and constants
 #include "G4PhysicalConstants.hh"
 #include "G4SystemOfUnits.hh"
-#include "../inc/MyBOXDetectorConstruction.hh"
+#include "MyBOXDetectorConstruction.hh"
 
 
 // CTR
@@ -27,12 +27,12 @@ MyBOXDetectorConstruction::MyBOXDetectorConstruction()
     fTargetThickness = 1.0*CLHEP::cm; 
     fGunXPosition    = 0.0; // will be set properly automaticaly 
     // create detector messenger object (for your own detector UI commands)
-//    fDetMessenger    = new YourDetectorMessenger(this);
+    fDetMessenger    = new MyBOXDetectorMessenger(this);
 }
 
 // DTR
 MyBOXDetectorConstruction::~MyBOXDetectorConstruction() {
-//    delete fDetMessenger;
+    delete fDetMessenger;
 }
 
 

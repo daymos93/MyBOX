@@ -1,5 +1,5 @@
 
-// Inlcude global-definitions: G4GlobalConfig.hh contains information on the 
+// Include global-definitions: G4GlobalConfig.hh contains information on the
 // Geant4 build in form of variable definitions e.g. G4MULTITHREADED variable 
 // will be defined in this header only in case of Geant4-MT.
 // One can also include "globals.hh" instead that will include G4GlobalConfig.hh

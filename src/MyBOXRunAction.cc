@@ -7,7 +7,7 @@
 #include "MyBOXRunActionMessenger.hh"
 
 #include "Randomize.hh"
-#include "../inc/MyBOXDetectorConstruction.hh"
+#include "MyBOXDetectorConstruction.hh"
 
 
 MyBOXRunAction::MyBOXRunAction(MyBOXDetectorConstruction* det, MyBOXPrimaryGeneratorAction* prim)
@@ -20,13 +20,13 @@ MyBOXRunAction::MyBOXRunAction(MyBOXDetectorConstruction* det, MyBOXPrimaryGener
   // Create our own UI messenger object that will interact to this Run-Action
   // to set some properties that will be used to update YourRun object (generated 
   // by calling this Run-Action::GenerateRun method) in the BeginOfRunAction method.
-//  fMessenger = new YourRunActionMessenger(this);
+  fMessenger = new MyBOXRunActionMessenger(this);
 }
 
 MyBOXRunAction::~MyBOXRunAction() {
   /* histo manager must be deleted here then*/ 
   // delete all dynamically allocated objects here 
-//  delete fMessenger;
+  delete fMessenger;
 }
 
 
